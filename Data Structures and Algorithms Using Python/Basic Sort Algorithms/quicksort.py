@@ -2,7 +2,7 @@
 It can be seen that first element is chosen as pivot and two lists are created 
 based on values less than and greater than pivot.
 
-Then same above thing is done for the two lists recursively by sleecting new pivot.
+Then same above thing is done for the two lists recursively by selecting new pivot.
 When end is reached till single value or no value list, then recursively result is sent upwards.
 Takes O(n^2) time in worst case.
 Takes O(n log n) time in best and average case.
